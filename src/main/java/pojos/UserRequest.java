@@ -1,4 +1,4 @@
-package ru.muradyan.api.task5.pojos;
+package pojos;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

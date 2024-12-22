@@ -1,10 +1,10 @@
-package ru.muradyan.api.task5.pojos;
+package pojos;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.Data;
-import ru.muradyan.api.task5.utils.DateDeserializer;
+import utils.DateDeserializer;
 
 import java.time.LocalDateTime;
 @JsonIgnoreProperties(ignoreUnknown = true)
