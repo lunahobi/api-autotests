@@ -1,14 +1,15 @@
-name: Run Reqres.in tests
+name: Run Reqres test
 
 on:
   push
 
 jobs:
-  runt-tests:
+  run_tests:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Использование main репозитория"
+
+      - name: "Использование ветки main репозитория"
         uses: actions/checkout@v3
       - name: "Запуск тестов"
         run: mvn clean test
@@ -21,6 +22,7 @@ jobs:
           gh_pages: gh-pages
           allure_report: target/allure-report
           allure_history: target/allure-history
+
       - name: "Создание ветки gh-pages содержащей allure report"
         uses: peaceiris/actions-gh-pages@v3
         with:
