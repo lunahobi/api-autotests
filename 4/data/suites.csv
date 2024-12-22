@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","305","Удалить пользователя","","Sun Dec 22 21:51:27 GMT 2024","passed","Sun Dec 22 21:51:27 GMT 2024","","ReqresTest","ReqresTest","deleteUser"
+"","335","Успешная регистрация","","Sun Dec 22 21:51:26 GMT 2024","passed","Sun Dec 22 21:51:26 GMT 2024","","ReqresTest","ReqresTest","registerSuccessful"
+"","478","Обновить пользователя PUT с неправильным форматом body","","Sun Dec 22 21:51:27 GMT 2024","passed","Sun Dec 22 21:51:27 GMT 2024","","ReqresTest","ReqresTest","updateUserPutWrongBody"
+"","313","Неуспешная регистрация","","Sun Dec 22 21:51:26 GMT 2024","passed","Sun Dec 22 21:51:27 GMT 2024","","ReqresTest","ReqresTest","registerUnsuccessful"
+"","108","Получить пользователя с id=2","","Sun Dec 22 21:51:26 GMT 2024","passed","Sun Dec 22 21:51:26 GMT 2024","","ReqresTest","ReqresTest","getUser"
+"","1207","Обновить пользователя PUT","","Sun Dec 22 21:51:25 GMT 2024","passed","Sun Dec 22 21:51:26 GMT 2024","","ReqresTest","ReqresTest","updateUserPut"
+"","3252","Получить пользователя с id=-1","","Sun Dec 22 21:51:21 GMT 2024","passed","Sun Dec 22 21:51:25 GMT 2024","","ReqresTest","ReqresTest","getUserNotFound"
