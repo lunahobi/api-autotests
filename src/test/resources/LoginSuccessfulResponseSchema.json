@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft-08/schema#",
+  "type": "object",
+  "properties": {
+    "token": {
+      "type": "string"
+    }
+  },
+  "required": ["token"]
+}
